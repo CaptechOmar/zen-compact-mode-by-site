@@ -1,0 +1,24 @@
+{
+  "id": "compact-sidebar-by-site",
+  "name": "Compact Sidebar by Site",
+  "version": "1.0.0",
+  "description": "Automatically turns Zen's compact mode (hidden sidebar) on for chosen sites, and back off everywhere else.",
+  "author": "",
+  "homepage": "",
+  "readme": "README.md",
+  "createdAt": "2026-10-19",
+  "tags": ["sidebar", "compact mode"],
+  "fork": ["zen"],
+  "style": {
+    "chrome": "chrome.css"
+  },
+  "preferences": "preferences.json",
+  "supportsUnload": false,
+  "scripts": {
+    "script.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"],
+      "loadOrder": 10
+    }
+  },
+  "updatedAt": "2026-10-19T00:00:00Z"
+}

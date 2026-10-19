@@ -1,0 +1,14 @@
+[
+  {
+    "property": "mod.compactbysite.hosts",
+    "label": "Sites that enable compact mode (comma-separated hostnames, subdomains match too)",
+    "type": "string",
+    "defaultValue": "admin.shopify.com"
+  },
+  {
+    "property": "mod.compactbysite.invert",
+    "label": "Invert: use compact mode everywhere EXCEPT the listed sites",
+    "type": "checkbox",
+    "defaultValue": false
+  }
+]
